@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import ID from './ID.js';
+import people from './people.js';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 id="header">Meet The Team</h1>
+
+      <div id="container">
+
+        {people.map((person, index) => (
+          <ID class={index % 2 === 0 ? "id-left" : "id-right"} key={index} person={person} />
+        ))}
+
+      </div>
     </div>
   );
 }
