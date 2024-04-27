@@ -1,0 +1,43 @@
+body {
+  background-color: lavender;
+  font-family: 'Comic Sans MS';
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.descriptions {
+  text-align: center;
+}
+
+.pics {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  padding: 20px 30px;
+  border-radius: 20%;
+  justify-content: space-around;
+}
+
+.sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
