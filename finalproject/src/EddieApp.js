@@ -14,7 +14,7 @@ function App() {
             from Philly.
             <br></br>
             <br></br>
-            One of my favorite movies is the anime called Vinland Saga.
+            One of my favorite shows is the anime called Vinland Saga.
             <br></br>
             <br></br>
             My favorite artists are AC/DC and Travis Scott.
