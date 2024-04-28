@@ -30,19 +30,22 @@ import React from 'react';
 import './ID.css';
 
 function ID({ person, index }) {
-  // Determine the side of the frame based on the index
-  const alignment = index % 2 === 0 ? 'left' : 'right';
+  // Set the flex direction based on whether the index is odd or even
+  const flexDirection = index % 2 === 0 ? 'row' : 'row-reverse';
 
-  // You can add more styling conditions based on the alignment if needed
-  const style = {
-    backgroundColor: person.backgroundColor,
-    alignSelf: alignment === 'left' ? 'flex-start' : 'flex-end',
+  const containerStyle = {
+    display: 'flex',
+    flexDirection: flexDirection, // Apply the alternating flex direction
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    margin: '20px',
+    // Apply other styles as needed
   };
 
   return (
-    <div style={style} className={`profile ${alignment}`}>
-      <img className="profile-image" src={person.image_src} alt={person.name} />
-      <div className="profile-info">
+    <div style={containerStyle}>
+      <img id="image" src={person.image_src} alt={person.name} />
+      <div>
         <p><b>Name:</b> {person.name}</p>
         <p><b>Role:</b> {person.role}</p>
       </div>
