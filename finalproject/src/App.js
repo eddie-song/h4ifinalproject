@@ -21,7 +21,6 @@ function App() {
       console.log("incorrect click");
     }
   }
-
   return (
     <div>
       <h1 id="header">Meet The Team</h1>
@@ -29,7 +28,7 @@ function App() {
       <div id="container">
         {people.map((person, index) => (
           /*<div onClick={() => handleClick(person.name)}>*/
-            <ID key = {index} class={index % 2 === 0 ? "id-left" : "id-right"} person={person} />
+            <ID class={index % 2 === 0 ? "id-left" : "id-right"} key = {index} person={person} />
           /*</div>*/
         ))}
       </div>

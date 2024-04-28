@@ -42,7 +42,7 @@ const people = [
         name: 'Rivan Parikh',
         direction: 'right',
         role: 'Engineer',
-        image_src: './rivan_images/logo',
+        image_src: './rivan_images/logo.png',
         backgroundColor: '#FFA500'
     },
 ]
