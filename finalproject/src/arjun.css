@@ -1,0 +1,38 @@
+.about-me {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.descriptions {
+  margin-bottom: 20px;
+}
+
+.pics {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.pic {
+  width: 20%;
+  height: auto;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  text-align: center;
+}
+
+.header {
+  margin-top: 30px;
+}
