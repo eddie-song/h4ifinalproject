@@ -24,26 +24,21 @@ function ID ({person}) {
 
 export default ID
 
-//
+----------------------------modified code---------------------------------------
 
-import React from 'react';
 import './ID.css';
 
 function ID({ person, index }) {
-  // Set the flex direction based on whether the index is odd or even
-  const flexDirection = index % 2 === 0 ? 'row' : 'row-reverse';
-
-  const containerStyle = {
-    display: 'flex',
-    flexDirection: flexDirection, // Apply the alternating flex direction
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    margin: '20px',
-    // Apply other styles as needed
+  // This inline style will push the container to the right for even indexes 
+  // and to the left for odd indexes
+  const style = {
+    backgroundColor: person.backgroundColor,
+    marginLeft: index % 2 === 0 ? 'auto' : '0',
+    marginRight: index % 2 === 0 ? '0' : 'auto',
   };
 
   return (
-    <div style={containerStyle}>
+    <div style={style} className="container">
       <img id="image" src={person.image_src} alt={person.name} />
       <div>
         <p><b>Name:</b> {person.name}</p>
