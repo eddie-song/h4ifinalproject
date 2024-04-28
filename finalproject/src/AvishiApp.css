@@ -1,0 +1,28 @@
+body {
+  font-family: helvetica, times new roman, sans-serif;
+  margin: 2em;
+  background-color: #e8d3d0;
+}
+
+img {
+  height: 300px;
+  width: 320px;
+  object-fit: contain;
+}
+
+h1 {
+  color: #a6b68f;
+  font-size: 80px;
+  text-shadow: 2.5px 2.5px #445a3c;
+}
+
+h2 {
+  color: #83aff0;
+  font-size: 35px;
+  text-shadow: 2.5px 2.5px #1b2d48;
+}
+
+p {
+  color: #003c6c;
+  font-size: 20px;
+}
