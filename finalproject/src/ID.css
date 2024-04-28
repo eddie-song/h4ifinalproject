@@ -11,30 +11,4 @@
     object-fit: cover;
 }
 
-//
 
-.profile {
-  display: flex;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px; /* Adjust as needed */
-}
-
-.profile.left {
-  justify-content: flex-start;
-}
-
-.profile.right {
-  justify-content: flex-end;
-}
-
-.profile-image {
-  border-radius: 50%;
-  object-fit: cover;
-  width: 100px; /* Adjust size as needed */
-  height: 100px; /* Adjust size as needed */
-}
-
-.profile-info {
-  padding-left: 20px; /* Adjust space between image and text */
-}
