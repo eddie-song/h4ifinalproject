@@ -7,14 +7,14 @@ const people = [
         name: 'Avishi Gupta',
         direction: 'left',
         role: 'Designer',
-        image_src: './images/avishi',
+        image_src: './avishi_images/avishi',
         backgroundColor: '#E8D3D0'
     },
     {
         name: 'Krishnan Tholkappian',
         direction: 'right',
         role: 'Product Manager',
-        image_src: './images/krishnan',
+        image_src: './krishnan_images/krishnan',
         backgroundColor: '#B9CDFB'
     },
     {
@@ -28,7 +28,7 @@ const people = [
         name: 'Arjun Mahendra',
         direction: 'right',
         role: 'Engineer',
-        image_src: './images/arjun',
+        image_src: './arjun',
         backgroundColor: '#E8D3D0'
     },
     {
@@ -42,7 +42,7 @@ const people = [
         name: 'Rivan Parikh',
         direction: 'right',
         role: 'Engineer',
-        image_src: './images/rivan',
+        image_src: './rivan_images/logo',
         backgroundColor: '#FFA500'
     },
 ]

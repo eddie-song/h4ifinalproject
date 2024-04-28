@@ -21,9 +21,9 @@ function App() {
     <div id  = "movies">
         <div class = "container">
             <ul>
-                <li><img src = {require("./images/knives_out.jpeg")}/></li>
-                <li><img src = {require("./images/harry_potter.jpeg")}/></li>
-                <li><img src = {require("./images/spider_man.jpeg")}/></li>
+                <li><img src = {require("./rivan_images/knives_out.jpeg")}/></li>
+                <li><img src = {require("./rivan_images/harry_potter.jpeg")}/></li>
+                <li><img src = {require("./rivan_images/spider_man.jpeg")}/></li>
             </ul>
             <p>Here are images of some of my favorite movies. I have many more but 
                 these are the ones I have enjoyed recently.
@@ -33,9 +33,9 @@ function App() {
     <div id = "hobbies">
         <div class = "container">
             <ul>
-                <li><img src={require("./images/gym.png")} width="200" height="300" alt ="gym"/></li>
-                <li><img src = {require("./images/sports.jpeg")}/></li>
-                <li><img src = {require("./images/spotify.png")}/></li>
+                <li><img src={require("./rivan_images/gym.png")} width="200" height="300" alt ="gym"/></li>
+                <li><img src = {require("./rivan_images/sports.jpeg")}/></li>
+                <li><img src = {require("./rivan_images/spotify.png")}/></li>
             </ul>
             <p>I enjoy working out, playing several different sports, listening to music
                 and many more things in my free time.
@@ -45,9 +45,9 @@ function App() {
     <div id = "foods">
         <div class = "container">
             <ul>
-                <li><img src = {require("./images/burrito.jpeg")}/></li>
-                <li><img src = {require("./images/chicken.jpeg")}/></li>
-                <li><img src = {require("./images/pizza.jpeg")}/></li>
+                <li><img src = {require("./rivan_images/burrito.jpeg")}/></li>
+                <li><img src = {require("./rivan_images/chicken.jpeg")}/></li>
+                <li><img src = {require("./rivan_images/pizza.jpeg")}/></li>
             </ul>
             <p>I enjoy eating all types of cuisines but here are three of my favorite
                 foods that I am always craving.
