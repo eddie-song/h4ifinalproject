@@ -135,7 +135,7 @@ function App() {
 
       <center>
         <p className="heading">
-          <u>photogaphy 📸</u>
+          <u>photography 📸</u>
         </p>
         <div className="flicks_container">
           <div>
