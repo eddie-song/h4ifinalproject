@@ -23,6 +23,9 @@ function App() {
       
       <div id="container">
         {people.map((person, index) => (
+          <div className={index % 2 === 0 ? "id-left" : "id-right"}>
+            <ID key = {index} person={person} />
+          </div>
             <ID class={index % 2 === 0 ? "id-left" : "id-right"} key = {index} person={person} />
         ))}
       </div>
