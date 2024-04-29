@@ -41,13 +41,13 @@ nav ul li a{
   justify-content: space-between;
 }
 #movies p{
-  align-items: left;
+  text-align: center;
 }
 #hobbies p{
-  text-align: left;
+  text-align: center;
 }
 #foods p{
-  text-align: left;
+  text-align: center;
 }
 #movies .container ul li img{
   border-radius: 20%;
