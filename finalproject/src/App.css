@@ -5,11 +5,10 @@
 #container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .id-left {
-  margin-right: 30%;
+  align-self: flex-start;
 }
 
 .id-right {
