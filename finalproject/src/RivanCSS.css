@@ -40,14 +40,14 @@ nav ul li a{
   align-items: center;
   justify-content: space-between;
 }
-#movies .container p{
-  text-align: center;
+#movies p{
+  align-items: left;
 }
-#hobbies .container p{
-  text-align: center;
+#hobbies p{
+  text-align: left;
 }
-#foods .container p{
-  text-align: center;
+#foods p{
+  text-align: left;
 }
 #movies .container ul li img{
   border-radius: 20%;

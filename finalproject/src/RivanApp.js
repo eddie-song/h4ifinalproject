@@ -25,10 +25,10 @@ function App() {
                 <li><img src = {require("./rivan_images/harry_potter.jpeg")}/></li>
                 <li><img src = {require("./rivan_images/spider_man.jpeg")}/></li>
             </ul>
-            <p>Here are images of some of my favorite movies. I have many more but 
-                these are the ones I have enjoyed recently.
-            </p>
         </div>
+        <p>Here are images of some of my favorite movies. I have many more but 
+                these are the ones I have enjoyed recently.
+        </p>
     </div>
     <div id = "hobbies">
         <div class = "container">
@@ -37,10 +37,10 @@ function App() {
                 <li><img src = {require("./rivan_images/sports.jpeg")}/></li>
                 <li><img src = {require("./rivan_images/spotify.png")}/></li>
             </ul>
-            <p>I enjoy working out, playing several different sports, listening to music
-                and many more things in my free time.
-            </p>
         </div>
+        <p>I enjoy working out, playing several different sports, listening to music
+                and many more things in my free time.
+        </p>
     </div>
     <div id = "foods">
         <div class = "container">
@@ -49,12 +49,11 @@ function App() {
                 <li><img src = {require("./rivan_images/chicken.jpeg")}/></li>
                 <li><img src = {require("./rivan_images/pizza.jpeg")}/></li>
             </ul>
-            <p>I enjoy eating all types of cuisines but here are three of my favorite
-                foods that I am always craving.
-            </p>
         </div>
-    </div>
-        
+        <p>I enjoy eating all types of cuisines but here are three of my favorite
+                foods that I am always craving.
+        </p>
+    </div>   
 </body>
 
 </>

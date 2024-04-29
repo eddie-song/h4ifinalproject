@@ -23,13 +23,13 @@ const App = () => {
         <center> My favorite movies! </center>
       </h2>
 
-      <img src="./avishi_images/Interstellar.jpg" alt="Interstellar" />
+      <img src={require("./avishi_images/Interstellar.jpg")} alt="Interstellar" />
 
-      <img src="./avishi_images/White_chicks.jpg" alt="White Chicks" />
+      <img src={require("./avishi_images/White_chicks.jpg")} alt="White Chicks" />
 
-      <img src="./avishi_images/The hangover.jpg" alt="The Hangover" />
+      <img src={require("./avishi_images/The hangover.jpg")} alt="The Hangover" />
 
-      <img src="./avishi_images/the social network.jpg" alt="The Social Network" />
+      <img src={require("./avishi_images/the social network.jpg")} alt="The Social Network" />
 
       <h2>
         <center> My Hobbies! </center>
@@ -62,13 +62,13 @@ const App = () => {
         <center> My Favorite Shows! </center>
       </h2>
 
-      <img src="./avishi_images/new girl.jpg" alt="New Girl" />
+      <img src={require("./avishi_images/new girl.jpg")} alt="New Girl" />
 
-      <img src="./avishi_images/b99.jpg" alt="B99" />
+      <img src={require("./avishi_images/b99.jpg")} alt="B99" />
 
-      <img src="./avishi_images/alta.jpg" alt="ALTA" />
+      <img src={require("./avishi_images/alta.jpg")} alt="ALTA" />
 
-      <img src="./avishi_images/suits.jpg" alt="Suits" />
+      <img src={require("./avishi_images/suits.jpg")} alt="Suits" />
     </>
   );
 };
