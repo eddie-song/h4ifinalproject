@@ -1,7 +1,6 @@
 .container {
     margin: 40px;
     display: flex;
-    width: 45%;
     justify-content: space-around;
     align-items: center;
 }
