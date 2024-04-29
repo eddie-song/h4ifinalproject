@@ -12,7 +12,7 @@ function App() {
         <nav id = "navbar">
             <ul id = "list">
                 <li><Link to = "/rivan">Rivan Parikh</Link></li>
-                <li><Link to = "/eddie">Eddie Song</Link></li>
+                <li><Link to = "/eddie">Edward Song</Link></li>
                 <li><Link to = "/nadia">Nadia Meyerovich</Link></li>
                 <li><Link to = "/avishi">Avishi Gupta</Link></li>
                 <li><Link to = "/arjun">Arjun Mahendra</Link></li>
@@ -26,7 +26,6 @@ function App() {
           <div className={index % 2 === 0 ? "id-left" : "id-right"}>
             <ID key = {index} person={person} />
           </div>
-            <ID class={index % 2 === 0 ? "id-left" : "id-right"} key = {index} person={person} />
         ))}
       </div>
       

@@ -1,9 +1,22 @@
 import logo from './logo.svg';
 import './EddieApp.css';
+import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="app">
+      <nav id = "navbar">
+        <ul id = "list">
+          <li><Link to = "/">Home</Link></li>
+          <li><Link to = "/rivan">Rivan Parikh</Link></li>
+          <li><Link to = "/eddie">Edward Song</Link></li>
+          <li><Link to = "/nadia">Nadia Meyerovich</Link></li>
+          <li><Link to = "/avishi">Avishi Gupta</Link></li>
+          <li><Link to = "/arjun">Arjun Mahendra</Link></li>
+          <li><Link to = "/krishnan">Krishnan Tholkappian</Link></li>
+        </ul>
+      </nav>
       <div className="bio-container">
         <div className="text-container">
           <p className="main-text">

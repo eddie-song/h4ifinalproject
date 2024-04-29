@@ -1,11 +1,23 @@
 import './NadiaApp.css';
+import './App.css';
+import { Link } from 'react-router-dom';
 
 function NadiaApp() {
 
   return (
 
     <div className="about-me">
-
+        <nav id = "navbar">
+          <ul id = "list">
+            <li><Link to = "/">Home</Link></li>
+            <li><Link to = "/rivan">Rivan Parikh</Link></li>
+            <li><Link to = "/eddie">Edward Song</Link></li>
+            <li><Link to = "/nadia">Nadia Meyerovich</Link></li>
+            <li><Link to = "/avishi">Avishi Gupta</Link></li>
+            <li><Link to = "/arjun">Arjun Mahendra</Link></li>
+            <li><Link to = "/krishnan">Krishnan Tholkappian</Link></li>
+          </ul>
+        </nav>
         <h1 className="title">About Nadia Meyerovich</h1>
         <p className="descriptions">Hi! My name is Nadia Meyerovich. I am a sophomore double majoring in Computer Science and Criminology & Criminal Justice. Below are pictures of my family from Mexico because we love to travel. The dog on the right is my doggie, Luna!</p>
 
