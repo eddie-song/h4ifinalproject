@@ -1,6 +1,6 @@
 .app {
-  width: 100vw;
-  height: 1000px;
+  width: 100%;
+  height: 1200px;
   display: flex;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +12,7 @@
 .bio-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 600px;
+  width: 900px;
   height: 350px;
   align-items: center;
   border-radius: 20px;
@@ -60,14 +60,14 @@
 
 @keyframes border-glow {
   0% {
-    border: 3px blue solid;
+    border: 4px blue solid;
   }
 
   50% {
-    border: 3px red solid;
+    border: 4px red solid;
   }
 
   100% {
-    border: 3px blue solid;
+    border: 4px blue solid;
   }
 }

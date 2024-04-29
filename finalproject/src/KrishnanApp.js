@@ -1,5 +1,7 @@
 import React from 'react';
 import './KrishnanApp.css'; 
+import './App.css';
+import { Link } from 'react-router-dom';
 import linkedinLogo from './krishnan_images/linkedin_logo.png';
 import githubLogo from './krishnan_images/github_logo.png';
 import instagramLogo from './krishnan_images/instagram_logo.png';
@@ -41,6 +43,17 @@ function App() {
     <div style={
       { backgroundColor: 'rgb(185, 205, 251)' }
       }>
+      <nav id = "navbar">
+        <ul id = "list">
+          <li><Link to = "/">Home</Link></li>
+          <li><Link to = "/rivan">Rivan Parikh</Link></li>
+          <li><Link to = "/eddie">Edward Song</Link></li>
+          <li><Link to = "/nadia">Nadia Meyerovich</Link></li>
+          <li><Link to = "/avishi">Avishi Gupta</Link></li>
+          <li><Link to = "/arjun">Arjun Mahendra</Link></li>
+          <li><Link to = "/krishnan">Krishnan Tholkappian</Link></li>
+        </ul>
+      </nav>
       <center>
         <h1 className="title">Krishnan Tholkappian 💁🏽‍♂️</h1>
         <hr className="solid_line" />
