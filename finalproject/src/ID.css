@@ -3,11 +3,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 10px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.container:hover{
+    transform: scale(1.1); 
 }
 
 #image {
     border-radius: 50%;
     object-fit: cover;
 }
-
-
