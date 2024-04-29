@@ -15,42 +15,48 @@ const people = [
         direction: 'left',
         role: 'Designer',
         image_src: avishipic,
-        backgroundColor: '#B2AC88'
+        backgroundColor: '#B2AC88',
+        path: "/avishi"
     },
     {
         name: 'Krishnan Tholkappian',
         direction: 'right',
         role: 'Product Manager',
         image_src: krishnanpic,
-        backgroundColor: '#B9CDFB'
+        backgroundColor: '#B9CDFB',
+        path: "/krishnan"
     },
     {
         name: 'Eddie Song',
         direction: 'left',
         role: 'Tech Lead',
         image_src: eddiepic,
-        backgroundColor: '#F4F0E0'
+        backgroundColor: '#F4F0E0',
+        path: "/eddie"
     },
     {
         name: 'Arjun Mahendra',
         direction: 'right',
         role: 'Engineer',
         image_src: arjunpic,
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        path: "/arjun"
     },
     {
         name: 'Nadia Meyerovich',
         direction: 'left',
         role: 'Engineer',
         image_src: nadiapic,
-        backgroundColor: '#E6E6FA'
+        backgroundColor: '#E6E6FA',
+        path: "/nadia"
     },
     {
         name: 'Rivan Parikh',
         direction: 'right',
         role: 'Engineer',
         image_src: rivanpic,
-        backgroundColor: '#FFA500'
+        backgroundColor: '#FFA500',
+        path: "/rivan"
     },
 ]
 

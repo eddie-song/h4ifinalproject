@@ -1,3 +1,5 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './ID.css';
 import './people.js';
 
@@ -9,8 +11,14 @@ function ID({ person, index }) {
     flexDirection: person.direction === 'left' ? 'row' : 'row-reverse',
   };
 
+  const navigate = useNavigate();
+
+  const handleIDClick = () => {
+    navigate(person.path);
+  };
+
   return (
-    <div style={style} className="container">
+    <div style={style} className="container" onClick={handleIDClick}>
       <img id="image" src={person.image_src} alt={person.name} />
       <div>
         <p><b>Name:</b> {person.name}</p>
