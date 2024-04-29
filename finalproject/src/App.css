@@ -1,7 +1,10 @@
 #header {
   text-align: center;
 }
-
+#heading{
+  display: flex;
+  align-items: center;
+}
 #container {
   display: flex;
   flex-direction: column;
@@ -14,4 +17,17 @@
 
 .id-right {
   align-self: flex-end;
+}
+
+#navbar{
+  flex-wrap: wrap;
+}
+#navbar #list li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+  color: #da1313;
+  text-decoration: none;
+  font-size: 24px;
+  position: relative;
 }
